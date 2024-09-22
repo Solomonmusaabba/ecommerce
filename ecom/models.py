@@ -47,5 +47,5 @@ class Feedback(models.Model):
     date= models.DateField(auto_now_add=True,null=True)
     def __str__(self):
         return self.name
-class book_appointement(models.model):
+class book_appointement(models.Model):
     pass
